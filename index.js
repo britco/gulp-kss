@@ -22,7 +22,7 @@ module.exports = function(opt) {
     'use strict';
     if (!opt) opt = {};
     if (!opt.templateDirectory) opt.templateDirectory = __dirname + '/node_modules/kss/lib/template';
-    if (!opt.kssOpts) opt.kssOpts = {};
+    if (!opt.kss) opt.kss = {};
 
     var buffer = [];
     var firstFile = null;
